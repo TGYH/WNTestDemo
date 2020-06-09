@@ -1,0 +1,32 @@
+//
+//  PrefixHeader.pch
+//  MyStudy
+//
+//  Created by 王家楠 on 2020/6/8.
+//  Copyright © 2020 王家楠. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define MAS_SHORTHAND
+#define MAS_SHORTHAND_GLOBALS
+
+#ifdef __OBJC__
+
+//pod
+#import <Masonry.h>
+#import <JLRoutes.h>
+
+//location pod
+#import <WNNetWorkManager.h>
+
+//
+#import "RouteTool.h"
+
+#endif
+
+#endif /* PrefixHeader_pch */

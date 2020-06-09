@@ -1,5 +1,5 @@
 //
-//  SceneDelegate.h
+//  DIYView.h
 //  MyStudy
 //
 //  Created by 王家楠 on 2020/6/8.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (strong, nonatomic) UIWindow * window;
+@interface DIYView : UIView
 
 @end
 
+NS_ASSUME_NONNULL_END

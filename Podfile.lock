@@ -1,0 +1,27 @@
+PODS:
+  - JLRoutes (2.1)
+  - Masonry (1.1.0)
+  - WNNetWorking (0.1.0)
+
+DEPENDENCIES:
+  - JLRoutes (~> 2.1)
+  - Masonry
+  - WNNetWorking (from `WNLib/WNNetWorking`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - JLRoutes
+    - Masonry
+
+EXTERNAL SOURCES:
+  WNNetWorking:
+    :path: WNLib/WNNetWorking
+
+SPEC CHECKSUMS:
+  JLRoutes: d755245322b94227662ea3e43492fdca94e05c5b
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  WNNetWorking: 3be97722bcb7e7937c132e45c6f66ad2d1200d8b
+
+PODFILE CHECKSUM: a35207cf90b27305455bc6153ef5172f10379f25
+
+COCOAPODS: 1.9.1

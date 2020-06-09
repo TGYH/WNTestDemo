@@ -1,0 +1,6 @@
+framework module WNNetWorking {
+  umbrella header "WNNetWorking-umbrella.h"
+
+  export *
+  module * { export * }
+}

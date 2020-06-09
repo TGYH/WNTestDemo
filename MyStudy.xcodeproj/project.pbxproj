@@ -3,19 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C58F6179B1A76458608E406 /* Pods_MyStudy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFCC1BD050F71243897800EA /* Pods_MyStudy.framework */; };
+		BF6D5AA5248F20210074BE3C /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6D5AA4248F20210074BE3C /* MyViewController.m */; };
+		BF6D5AA8248F20490074BE3C /* MasonryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6D5AA7248F20490074BE3C /* MasonryViewController.m */; };
+		BF6D5AAB248F20890074BE3C /* RouteTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6D5AAA248F20890074BE3C /* RouteTool.m */; };
 		BF8DD13C248DDEE70067F56A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8DD13B248DDEE70067F56A /* AppDelegate.m */; };
-		BF8DD13F248DDEE70067F56A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8DD13E248DDEE70067F56A /* SceneDelegate.m */; };
 		BF8DD142248DDEE70067F56A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8DD141248DDEE70067F56A /* ViewController.m */; };
-		BF8DD145248DDEE70067F56A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF8DD143248DDEE70067F56A /* Main.storyboard */; };
 		BF8DD147248DDEE80067F56A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF8DD146248DDEE80067F56A /* Assets.xcassets */; };
 		BF8DD14A248DDEE80067F56A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF8DD148248DDEE80067F56A /* LaunchScreen.storyboard */; };
 		BF8DD14D248DDEE80067F56A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8DD14C248DDEE80067F56A /* main.m */; };
 		BF8DD157248DDEE80067F56A /* MyStudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8DD156248DDEE80067F56A /* MyStudyTests.m */; };
 		BF8DD162248DDEE80067F56A /* MyStudyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8DD161248DDEE80067F56A /* MyStudyUITests.m */; };
+		BF8DD173248E19160067F56A /* DIYView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8DD172248E19160067F56A /* DIYView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +39,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25D3F4A48725E83329F1EAE0 /* Pods-MyStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyStudy.debug.xcconfig"; path = "Target Support Files/Pods-MyStudy/Pods-MyStudy.debug.xcconfig"; sourceTree = "<group>"; };
+		B88B97883B07830859B4D44E /* Pods-MyStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyStudy.release.xcconfig"; path = "Target Support Files/Pods-MyStudy/Pods-MyStudy.release.xcconfig"; sourceTree = "<group>"; };
+		BF6D5AA3248F20210074BE3C /* MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		BF6D5AA4248F20210074BE3C /* MyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		BF6D5AA6248F20490074BE3C /* MasonryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasonryViewController.h; sourceTree = "<group>"; };
+		BF6D5AA7248F20490074BE3C /* MasonryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryViewController.m; sourceTree = "<group>"; };
+		BF6D5AA9248F20890074BE3C /* RouteTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RouteTool.h; sourceTree = "<group>"; };
+		BF6D5AAA248F20890074BE3C /* RouteTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RouteTool.m; sourceTree = "<group>"; };
 		BF8DD137248DDEE70067F56A /* MyStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF8DD13A248DDEE70067F56A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BF8DD13B248DDEE70067F56A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BF8DD13D248DDEE70067F56A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		BF8DD13E248DDEE70067F56A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		BF8DD140248DDEE70067F56A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BF8DD141248DDEE70067F56A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BF8DD144248DDEE70067F56A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF8DD146248DDEE80067F56A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF8DD149248DDEE80067F56A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF8DD14B248DDEE80067F56A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +62,10 @@
 		BF8DD15D248DDEE80067F56A /* MyStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF8DD161248DDEE80067F56A /* MyStudyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyStudyUITests.m; sourceTree = "<group>"; };
 		BF8DD163248DDEE80067F56A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF8DD16F248DE27B0067F56A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BF8DD171248E19160067F56A /* DIYView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DIYView.h; sourceTree = "<group>"; };
+		BF8DD172248E19160067F56A /* DIYView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DIYView.m; sourceTree = "<group>"; };
+		FFCC1BD050F71243897800EA /* Pods_MyStudy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyStudy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C58F6179B1A76458608E406 /* Pods_MyStudy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +94,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B032C92D7CEC6E59BF2F2E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFCC1BD050F71243897800EA /* Pods_MyStudy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		338BDE8491210D92BE50FCCA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25D3F4A48725E83329F1EAE0 /* Pods-MyStudy.debug.xcconfig */,
+				B88B97883B07830859B4D44E /* Pods-MyStudy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BF8DD12E248DDEE70067F56A = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +118,8 @@
 				BF8DD155248DDEE80067F56A /* MyStudyTests */,
 				BF8DD160248DDEE80067F56A /* MyStudyUITests */,
 				BF8DD138248DDEE70067F56A /* Products */,
+				338BDE8491210D92BE50FCCA /* Pods */,
+				0B032C92D7CEC6E59BF2F2E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,14 +138,19 @@
 			children = (
 				BF8DD13A248DDEE70067F56A /* AppDelegate.h */,
 				BF8DD13B248DDEE70067F56A /* AppDelegate.m */,
-				BF8DD13D248DDEE70067F56A /* SceneDelegate.h */,
-				BF8DD13E248DDEE70067F56A /* SceneDelegate.m */,
 				BF8DD140248DDEE70067F56A /* ViewController.h */,
 				BF8DD141248DDEE70067F56A /* ViewController.m */,
-				BF8DD143248DDEE70067F56A /* Main.storyboard */,
+				BF8DD171248E19160067F56A /* DIYView.h */,
+				BF8DD172248E19160067F56A /* DIYView.m */,
+				BF6D5AA3248F20210074BE3C /* MyViewController.h */,
+				BF6D5AA4248F20210074BE3C /* MyViewController.m */,
+				BF6D5AA9248F20890074BE3C /* RouteTool.h */,
+				BF6D5AAA248F20890074BE3C /* RouteTool.m */,
+				BF8DD170248DE8460067F56A /* MasonryVC */,
 				BF8DD146248DDEE80067F56A /* Assets.xcassets */,
 				BF8DD148248DDEE80067F56A /* LaunchScreen.storyboard */,
 				BF8DD14B248DDEE80067F56A /* Info.plist */,
+				BF8DD16F248DE27B0067F56A /* PrefixHeader.pch */,
 				BF8DD14C248DDEE80067F56A /* main.m */,
 			);
 			path = MyStudy;
@@ -137,6 +174,15 @@
 			path = MyStudyUITests;
 			sourceTree = "<group>";
 		};
+		BF8DD170248DE8460067F56A /* MasonryVC */ = {
+			isa = PBXGroup;
+			children = (
+				BF6D5AA6248F20490074BE3C /* MasonryViewController.h */,
+				BF6D5AA7248F20490074BE3C /* MasonryViewController.m */,
+			);
+			path = MasonryVC;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF8DD166248DDEE80067F56A /* Build configuration list for PBXNativeTarget "MyStudy" */;
 			buildPhases = (
+				73A3DD2CD8854079165F1122 /* [CP] Check Pods Manifest.lock */,
 				BF8DD133248DDEE70067F56A /* Sources */,
 				BF8DD134248DDEE70067F56A /* Frameworks */,
 				BF8DD135248DDEE70067F56A /* Resources */,
+				0AC88E51E43CA0CCEC412843 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -242,7 +290,6 @@
 			files = (
 				BF8DD14A248DDEE80067F56A /* LaunchScreen.storyboard in Resources */,
 				BF8DD147248DDEE80067F56A /* Assets.xcassets in Resources */,
-				BF8DD145248DDEE70067F56A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,15 +309,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0AC88E51E43CA0CCEC412843 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyStudy/Pods-MyStudy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyStudy/Pods-MyStudy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyStudy/Pods-MyStudy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73A3DD2CD8854079165F1122 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyStudy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF8DD133248DDEE70067F56A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BF8DD142248DDEE70067F56A /* ViewController.m in Sources */,
+				BF8DD173248E19160067F56A /* DIYView.m in Sources */,
+				BF6D5AA8248F20490074BE3C /* MasonryViewController.m in Sources */,
 				BF8DD13C248DDEE70067F56A /* AppDelegate.m in Sources */,
 				BF8DD14D248DDEE80067F56A /* main.m in Sources */,
-				BF8DD13F248DDEE70067F56A /* SceneDelegate.m in Sources */,
+				BF6D5AAB248F20890074BE3C /* RouteTool.m in Sources */,
+				BF6D5AA5248F20210074BE3C /* MyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,14 +398,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BF8DD143248DDEE70067F56A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BF8DD144248DDEE70067F56A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BF8DD148248DDEE80067F56A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -437,11 +521,15 @@
 		};
 		BF8DD167248DDEE80067F56A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25D3F4A48725E83329F1EAE0 /* Pods-MyStudy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4FRUH6KSW8;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MyStudy/PrefixHeader.pch;
 				INFOPLIST_FILE = MyStudy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,11 +542,15 @@
 		};
 		BF8DD168248DDEE80067F56A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B88B97883B07830859B4D44E /* Pods-MyStudy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4FRUH6KSW8;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MyStudy/PrefixHeader.pch;
 				INFOPLIST_FILE = MyStudy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
